@@ -99,8 +99,8 @@ const UNIT_MAP = {
 
 function formatUnit(amount, unit) {
     const mapping = UNIT_MAP[unit];
-    if (!mapping) return "&nbsp" + unit;
-    return (amount <= 1) ? "&nbsp" + mapping.singular : "&nbsp" + mapping.plural;
+    if (!mapping) return ' ' + unit;
+    return (amount <= 1) ? ' ' + mapping.singular : ' ' + mapping.plural;
 }
 
 function escapeHtml(str) {
