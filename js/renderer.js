@@ -1,4 +1,3 @@
-// js/renderer.js
 export function renderRecipe(recipe) {
     const container = document.getElementById('recipe-container');
     
