@@ -28,7 +28,7 @@ export function renderRecipe(recipe) {
             quantityStr += formatAmount(ing.amount);
         }
         if (ing.unit) {
-            quantityStr += formatUnit(ing.unit);
+            quantityStr += formatUnit(ing.amount, ing.unit);
         }
 
         // Format name and preparation/optional modifiers
@@ -88,12 +88,19 @@ function formatAmount(amount) {
     return whole > 0 ? `${whole} ${fracStr}` : fracStr;
 }
 
-function formatUnit(unit) {
-    const units = {
-        'teaspoon': 'tsp',
-        'tablespoon': 'tbsp'
-    };
-    return units[unit] || unit;
+// Only contains units that change from their default form (see recipe.schema.json)
+const UNIT_MAP = {
+  cup: { singular: 'cup', plural: 'cups' },
+  clove: { singular: 'clove', plural: 'cloves' },
+  stick: { singular: 'stick', plural: 'sticks' },
+  pkg: { singular: 'pkg', plural: 'pkgs' },
+  can: { singular: 'can', plural: 'cans' }
+};
+
+function formatUnit(amount, unit) {
+    const mapping = UNIT_MAP[unit];
+    if (!mapping) return "&nbsp" + unitCode;
+    return (amount <= 1) ? "&nbsp" + mapping.singular : "&nbsp" + mapping.plural;
 }
 
 function escapeHtml(str) {
