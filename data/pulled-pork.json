@@ -1,0 +1,114 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Pulled Pork",
+    "prepTime": "10 minutes",
+    "cookTime": "50 minutes",
+    "yield": "6 servings",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "tbsp",
+            "name": "Brown sugar"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "name": "Paprika"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "name": "Garlic powder"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "name": "Onion powder"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "Salt"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "Pepper"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "name": "Cumin"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "name": "Cayenne pepper",
+            "optional": true
+        },
+        {
+            "amount": 3,
+            "unit": "lb",
+            "name": "Pork roast",
+            "preparation": "Cut into 3 inch cubes"
+        },
+        {
+            "amount": 2,
+            "unit": "tbsp",
+            "name": "Olive oil"
+        },
+        {
+            "amount": 0.33,
+            "unit": "cup",
+            "name": "Beer",
+            "preparation": "The rest is for you!"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "name": "Barbecue sauce",
+            "preparation": "Divided"
+        },
+        {
+            "amount": 1.25,
+            "unit": "cup",
+            "name": "Chicken or beef broth"
+        }
+    ],
+    "instructions": [
+        {
+            "stepNumber": 1,
+            "text": "In a small bowl mix together the brown sugar and spices."
+        },
+        {
+            "stepNumber": 2,
+            "text": "Season the cubed pork with the spice mixture and set aside."
+        },
+        {
+            "stepNumber": 3,
+            "text": "In a medium bowl whisk together the apple cider vinegar, half of the barbecue sauce, and one cup of the broth."
+        },
+        {
+            "stepNumber": 4,
+            "text": "Turn the instant pot onto the sauté setting.  Add olive oil and wait for it to heat."
+        },
+        {
+            "stepNumber": 5,
+            "text": "Add the seasoned pork to the instant pot and cook for 5 minutes."
+        },
+        {
+            "stepNumber": 6,
+            "text": "Add the barbecue sauce mixture to the instant pot.  Close the lid and cook on high pressure for 40 minutes.",
+            "timerMinutes": 40
+        },
+        {
+            "stepNumber": 7,
+            "text": "Allow the pressure to release naturally for 10 minutes.",
+            "timerMinutes": 10
+        },
+        {
+            "stepNumber": 8,
+            "text": "Remove meat and put in the stand mixer bowl.  Add the remaining barbecue sauce and shred."
+        }
+    ]
+}

@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Recipe",
   "type": "object",
-  "required": ["title", "prepTime", "cookTime", "ovenTemperature", "yield", "ingredients", "instructions"],
+  "required": ["title", "prepTime", "cookTime", "yield", "ingredients", "instructions"],
   "properties": {
     "title": {
       "type": "string"

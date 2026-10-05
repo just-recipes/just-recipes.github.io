@@ -14,6 +14,13 @@
             "prepTime": "25 minutes",
             "cookTime": "8 minutes per batch",
             "yield": "about 60 cookies"
+        },
+        {
+            "slug": "pulled-pork",
+            "title": "Pulled Pork",
+            "prepTime": "10 minutes",
+            "cookTime": "40 minutes",
+            "yield": "6 servings"
         }
     ]
 }
