@@ -1,0 +1,81 @@
+{
+  "$schema": "../schemas/recipe.schema.json",
+  "title": "Banana Bread",
+  "prepTime": "5 minutes",
+  "cookTime": "60 minutes",
+  "ovenTemperature": {
+    "value": 350,
+    "unit": "F"
+  },
+  "yield": "1 loaf",
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "all-purpose flour"
+    },
+    {
+      "amount": 1,
+      "unit": "teaspoon",
+      "name": "baking soda"
+    },
+    {
+      "amount": 0.25,
+      "unit": "teaspoon",
+      "name": "salt"
+    },
+    {
+      "amount": 2,
+      "name": "eggs"
+    },
+    {
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "butter",
+      "preparation": "softened"
+    },
+    {
+      "amount": 0.75,
+      "unit": "cup",
+      "name": "brown sugar",
+      "preparation": "packed"
+    },
+    {
+      "amount": 2.33,
+      "unit": "cups",
+      "name": "bananas",
+      "preparation": "mashed"
+    }
+  ],
+  "instructions": [
+    {
+      "stepNumber": 1,
+      "text": "Preheat the oven to 350 degrees F."
+    },
+    {
+      "stepNumber": 2,
+      "text": "Grease a 9x5\" loaf pan."
+    },
+    {
+      "stepNumber": 3,
+      "text": "Combine flour, baking soda, salt in a large bowl."
+    },
+    {
+      "stepNumber": 4,
+      "text": "Beat brown sugar and butter with an electric mixer in a separate large bowl until smooth. Stir in eggs and mashed bananas until well blended."
+    },
+    {
+      "stepNumber": 5,
+      "text": "Stir banana mixture into flour mixture until just combined."
+    },
+    {
+      "stepNumber": 6,
+      "text": "Bake at 350 until a toothpick inserted into the centre of the loaf comes out clean.",
+      "timerMinutes": 60
+    },
+    {
+      "stepNumber": 7,
+      "text": "Cool in pan for 10 minutes, then turn out onto a wire rack to Cool completely.",
+      "timerMinutes": 10
+    }
+  ]
+}

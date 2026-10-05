@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Recipe",
+  "type": "object",
+  "required": ["title", "prepTime", "cookTime", "ovenTemperature", "yield", "ingredients", "instructions"],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "prepTime": {
+      "type": "string"
+    },
+    "cookTime": {
+      "type": "string"
+    },
+    "ovenTemperature": {
+      "type": "object",
+      "properties": {
+        "value": { "type": "number" },
+        "unit": { "type": "string", "enum": ["F", "C"] }
+      },
+      "required": ["value", "unit"]
+    },
+    "yield": {
+      "type": "string"
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "amount": { "type": "number" },
+          "unit": { "type": "string" },
+          "name": { "type": "string" },
+          "preparation": { "type": "string" },
+          "optional": { "type": "boolean" }
+        }
+      }
+    },
+    "instructions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["stepNumber", "text"],
+        "properties": {
+          "stepNumber": { "type": "integer" },
+          "text": { "type": "string" },
+          "timerMinutes": { "type": "integer" }
+        }
+      }
+    }
+  }
+}

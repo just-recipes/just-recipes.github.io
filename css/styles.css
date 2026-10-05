@@ -1,0 +1,126 @@
+/* css/styles.css */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    background-color: #fcfcfc;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #111;
+}
+
+section {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.metadata {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.metadata p {
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+td {
+    padding: 0.75rem 0.5rem;
+    vertical-align: top;
+}
+
+.ingredient-amount {
+    width: 30%;
+    font-weight: 500;
+    color: #555;
+    text-align: right;
+    padding-right: 1.5rem;
+}
+
+.ingredient-name {
+    width: 70%;
+}
+
+ol {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.recipe-yield {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.loading, .error {
+    color: #666;
+    font-style: italic;
+}
+
+.error {
+    color: #cc0000;
+}
+
+.nav-back {
+    margin-bottom: 1rem;
+}
+
+.nav-back a {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+    color: #555;
+}
+
+.nav-back a:hover {
+    color: #0066cc;
+    text-decoration: none;
+}

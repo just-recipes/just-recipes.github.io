@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "banana-bread",
+    "title": "Banana Bread",
+    "prepTime": "5 minutes",
+    "cookTime": "60 minutes",
+    "yield": "1 loaf",
+    "file": "banana-bread.json"
+  },
+  {
+    "slug": "chocolate-chip-cookies",
+    "title": "Chocolate Chip Cookies",
+    "prepTime": "25 minutes",
+    "cookTime": "8 minutes per batch",
+    "yield": "about 60 cookies",
+    "file": "chocolate-chip-cookies.json"
+  }
+]

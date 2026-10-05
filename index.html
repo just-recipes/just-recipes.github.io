@@ -1,17 +1,20 @@
+<!-- index.html -->
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>JustRecipes</title>
-    <link href="main.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Recipes</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
-
 <body>
-<h1>
-    Recipes
-</h1>
-<section>
-    <ul>
-        <li><a href="banana-bread.html">Banana Bread</a></li>
-        <li><a href="chocolate-chip-cookies.html">Chocolate Chip Cookies</a></li>
-    </ul>
-</section>
+    <main id="recipe-container">
+        <h1>Recipe Index</h1>
+        <ul id="recipe-list">
+            <p class="loading">Loading recipes...</p>
+        </ul>
+    </main>
+
+    <script type="module" src="./js/home.js"></script>
 </body>
+</html>

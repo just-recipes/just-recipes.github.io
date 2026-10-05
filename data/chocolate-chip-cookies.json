@@ -1,0 +1,77 @@
+{
+  "$schema": "../schemas/recipe.schema.json",
+  "title": "Chocolate Chip Cookies",
+  "prepTime": "25 minutes",
+  "cookTime": "8 minutes per batch",
+  "ovenTemperature": {
+    "value": 375,
+    "unit": "F"
+  },
+  "yield": "about 60 cookies",
+  "ingredients": [
+    {
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "shortening"
+    },
+    {
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "butter",
+      "preparation": "softened"
+    },
+    {
+      "amount": 1,
+      "unit": "cup",
+      "name": "brown sugar",
+      "preparation": "packed"
+    },
+    {
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "granulated sugar"
+    },
+    {
+      "amount": 0.5,
+      "unit": "teaspoon",
+      "name": "baking soda"
+    },
+    {
+      "amount": 2,
+      "name": "eggs"
+    },
+    {
+      "amount": 1,
+      "unit": "teaspoon",
+      "name": "vanilla"
+    },
+    {
+      "amount": 2.5,
+      "unit": "cups",
+      "name": "all-purpose flour"
+    },
+    {
+      "amount": 2,
+      "unit": "cups",
+      "name": "semi-sweet chocolate pieces"
+    },
+    {
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "chipped walnuts, pecans, or hazelnuts",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "stepNumber": 1,
+      "text": "In a large mixing bowl beat shortening and butter with an electric mixer on medium to high speed for 30 seconds. Add brown sugar, granulated sugar, and baking soda. Beat until mixture is combined, scraping sides of bowl occasionally. Beat in eggs and vanilla until combined. Beat in as much of the flour as you can with the mixer. Stir in any remaining flour. Stir in chocolate pieces and, if desired, nuts.",
+      "timerMinutes": 1
+    },
+    {
+      "stepNumber": 2,
+      "text": "Drop dough by rounded teaspoons 2 inches apart onto an ungreased cookie sheet. Bake in a 375 F oven or until edges are lightly browned. Transfer to a wire rack and let cool.",
+      "timerMinutes": 9
+    }
+  ]
+}
