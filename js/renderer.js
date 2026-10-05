@@ -2,7 +2,7 @@
 export function renderRecipe(recipe) {
     const container = document.getElementById('recipe-container');
     
-    // Header section (Metadata)
+    // Header section
     const headerSection = document.createElement('section');
     headerSection.innerHTML = `
         <h1>${escapeHtml(recipe.title)}</h1>

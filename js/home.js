@@ -7,11 +7,11 @@ async function initHome() {
         if (!response.ok) {
             throw new Error(`Failed to load recipe index: ${response.statusText}`);
         }
-        const recipes = await response.json();
+        const recipeIndex = await response.json();
 
         listContainer.innerHTML = '';
         
-        recipes.forEach(recipe => {
+        recipeIndex.recipes.forEach(recipe => {
             const li = document.createElement('li');
             const a = document.createElement('a');
             a.href = `./recipe.html?slug=${encodeURIComponent(recipe.slug)}`;

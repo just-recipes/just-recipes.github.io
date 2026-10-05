@@ -3,7 +3,7 @@ import { renderRecipe } from './renderer.js';
 
 async function init() {
     const params = new URLSearchParams(window.location.search);
-    const slug = params.get('slug') || 'banana-bread'; // default fallback
+    const slug = params.get('slug') || 'error';
 
     try {
         const response = await fetch(`./data/${slug}.json`);

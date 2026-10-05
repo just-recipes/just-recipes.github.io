@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Recipe Index",
+  "type": "object",
+  "required": ["recipes"],
+    "properties": {
+        "recipes": {
+        "type": "array",
+        "items": {
+            "type": "object",
+            "required": ["slug", "title", "prepTime", "cookTime", "yield"],
+            "properties": {
+                "slug": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "prepTime": {
+                    "type": "string"
+                },
+                "cookTime": {
+                    "type": "string"
+                },
+                "yield": {
+                    "type": "string"
+                }
+            }
+        }
+        }
+    }
+}
