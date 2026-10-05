@@ -1,4 +1,3 @@
-// js/app.js
 import { renderRecipe } from './renderer.js';
 
 async function init() {

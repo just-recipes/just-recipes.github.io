@@ -15,12 +15,12 @@
     },
     {
       "amount": 1,
-      "unit": "teaspoon",
+      "unit": "tsp",
       "name": "baking soda"
     },
     {
       "amount": 0.25,
-      "unit": "teaspoon",
+      "unit": "tsp",
       "name": "salt"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "amount": 2.33,
-      "unit": "cups",
+      "unit": "cup",
       "name": "bananas",
       "preparation": "mashed"
     }

@@ -1,4 +1,3 @@
-// js/renderer.js
 export function renderRecipe(recipe) {
     const container = document.getElementById('recipe-container');
     
@@ -28,7 +27,7 @@ export function renderRecipe(recipe) {
             quantityStr += formatAmount(ing.amount);
         }
         if (ing.unit) {
-            quantityStr += ` ${ing.unit}`;
+            quantityStr += formatUnit(ing.amount, ing.unit);
         }
 
         // Format name and preparation/optional modifiers
@@ -86,6 +85,21 @@ function formatAmount(amount) {
     if (remainder === 0) return whole > 0 ? whole.toString() : '';
     const fracStr = fractions[remainder] || remainder.toString().replace('0.', '');
     return whole > 0 ? `${whole} ${fracStr}` : fracStr;
+}
+
+// Only contains units that change from their default form (see recipe.schema.json)
+const UNIT_MAP = {
+  cup: { singular: 'cup', plural: 'cups' },
+  clove: { singular: 'clove', plural: 'cloves' },
+  stick: { singular: 'stick', plural: 'sticks' },
+  pkg: { singular: 'pkg', plural: 'pkgs' },
+  can: { singular: 'can', plural: 'cans' }
+};
+
+function formatUnit(amount, unit) {
+    const mapping = UNIT_MAP[unit];
+    if (!mapping) return ' ' + unit;
+    return (amount <= 1) ? ' ' + mapping.singular : ' ' + mapping.plural;
 }
 
 function escapeHtml(str) {

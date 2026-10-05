@@ -1,4 +1,3 @@
-// js/home.js
 async function initHome() {
     const listContainer = document.getElementById('recipe-list');
 
