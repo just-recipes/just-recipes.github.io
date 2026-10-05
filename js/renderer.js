@@ -99,7 +99,7 @@ const UNIT_MAP = {
 
 function formatUnit(amount, unit) {
     const mapping = UNIT_MAP[unit];
-    if (!mapping) return "&nbsp" + unitCode;
+    if (!mapping) return "&nbsp" + unit;
     return (amount <= 1) ? "&nbsp" + mapping.singular : "&nbsp" + mapping.plural;
 }
 
