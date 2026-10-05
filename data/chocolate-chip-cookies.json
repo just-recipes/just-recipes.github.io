@@ -33,7 +33,7 @@
     },
     {
       "amount": 0.5,
-      "unit": "teaspoon",
+      "unit": "tsp",
       "name": "baking soda"
     },
     {
@@ -42,22 +42,22 @@
     },
     {
       "amount": 1,
-      "unit": "teaspoon",
+      "unit": "tsp",
       "name": "vanilla"
     },
     {
       "amount": 2.5,
-      "unit": "cups",
+      "unit": "cup",
       "name": "all-purpose flour"
     },
     {
       "amount": 2,
-      "unit": "cups",
+      "unit": "cup",
       "name": "semi-sweet chocolate pieces"
     },
     {
       "amount": 1.5,
-      "unit": "cups",
+      "unit": "cup",
       "name": "chipped walnuts, pecans, or hazelnuts",
       "optional": true
     }
