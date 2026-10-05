@@ -31,7 +31,24 @@
         "required": ["name"],
         "properties": {
           "amount": { "type": "number" },
-          "unit": { "type": "string" },
+          "unit": { "type": "string", "enum": [
+            "tsp",
+            "tbsp",
+            "c",
+            "fl oz",
+            "oz",
+            "lb",
+            "g",
+            "kg",
+            "ml",
+            "l",
+            "pinch",
+            "dash",
+            "clove",
+            "stick",
+            "pkg",
+            "can"
+          ] },
           "name": { "type": "string" },
           "preparation": { "type": "string" },
           "optional": { "type": "boolean" }
