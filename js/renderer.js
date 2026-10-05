@@ -28,7 +28,7 @@ export function renderRecipe(recipe) {
             quantityStr += formatAmount(ing.amount);
         }
         if (ing.unit) {
-            quantityStr += ` ${ing.unit}`;
+            quantityStr += formatUnit(ing.unit);
         }
 
         // Format name and preparation/optional modifiers
@@ -86,6 +86,14 @@ function formatAmount(amount) {
     if (remainder === 0) return whole > 0 ? whole.toString() : '';
     const fracStr = fractions[remainder] || remainder.toString().replace('0.', '');
     return whole > 0 ? `${whole} ${fracStr}` : fracStr;
+}
+
+function formatUnit(unit) {
+    const units = {
+        'teaspoon': 'tsp',
+        'tablespoon': 'tbsp'
+    };
+    return units[unit] || unit;
 }
 
 function escapeHtml(str) {
