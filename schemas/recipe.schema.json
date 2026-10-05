@@ -34,7 +34,7 @@
           "unit": { "type": "string", "enum": [
             "tsp",
             "tbsp",
-            "c",
+            "cup",
             "fl oz",
             "oz",
             "lb",
