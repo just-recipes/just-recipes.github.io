@@ -1,8 +1,8 @@
 {
   "$schema": "../schemas/recipe.schema.json",
   "title": "Banana Bread",
-  "prepTime": "5 minutes",
-  "cookTime": "60 minutes",
+  "prepTime": "PT5M",
+  "cookTime": "PT60M",
   "ovenTemperature": {
     "value": 350,
     "unit": "F"
@@ -70,12 +70,12 @@
     {
       "stepNumber": 6,
       "text": "Bake at 350 until a toothpick inserted into the centre of the loaf comes out clean.",
-      "timerMinutes": 60
+      "duration": "PT60M"
     },
     {
       "stepNumber": 7,
       "text": "Cool in pan for 10 minutes, then turn out onto a wire rack to Cool completely.",
-      "timerMinutes": 10
+      "duration": "PT10M"
     }
   ]
 }

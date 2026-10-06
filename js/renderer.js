@@ -6,8 +6,8 @@ export function renderRecipe(recipe) {
     headerSection.innerHTML = `
         <h1>${escapeHtml(recipe.title)}</h1>
         <div class="metadata">
-            ${recipe.prepTime ? `<p><span><b>Prep:</b></span> ${escapeHtml(recipe.prepTime)}</p>` : ''}
-            ${recipe.cookTime ? `<p><span><b>Bake:</b></span> ${escapeHtml(recipe.cookTime)}</p>` : ''}
+            ${recipe.prepTime ? `<p><span><b>Prep:</b></span> ${formatISODuration(recipe.prepTime)}</p>` : ''}
+            ${recipe.cookTime ? `<p><span><b>Bake:</b></span> ${formatISODuration(recipe.cookTime)}</p>` : ''}
             ${recipe.ovenTemperature ? `<p><span><b>Oven:</b></span> ${recipe.ovenTemperature.value}&deg;${recipe.ovenTemperature.unit}</p>` : ''}
             ${recipe.yield ? `<p><span><b>Makes:</b></span> ${escapeHtml(recipe.yield)}</p>` : ''}
         </div>
@@ -100,6 +100,11 @@ function formatUnit(amount, unit) {
     const mapping = UNIT_MAP[unit];
     if (!mapping) return ' ' + unit;
     return (amount <= 1) ? ' ' + mapping.singular : ' ' + mapping.plural;
+}
+
+function formatISODuration(isoString, locale = 'en-CA') {
+  const duration = Temporal.Duration.from(isoString);
+  return duration.toLocaleString(locale, { style: 'short' });
 }
 
 function escapeHtml(str) {
