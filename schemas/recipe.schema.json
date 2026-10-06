@@ -8,10 +8,12 @@
       "type": "string"
     },
     "prepTime": {
-      "type": "string"
+      "type": "string",
+      "format": "duration"
     },
     "cookTime": {
-      "type": "string"
+      "type": "string",
+      "format": "duration"
     },
     "ovenTemperature": {
       "type": "object",
@@ -63,7 +65,7 @@
         "properties": {
           "stepNumber": { "type": "integer" },
           "text": { "type": "string" },
-          "timerMinutes": { "type": "integer" }
+          "duration": { "type": "string", "format": "duration" }
         }
       }
     }

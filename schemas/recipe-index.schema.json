@@ -17,10 +17,12 @@
                     "type": "string"
                 },
                 "prepTime": {
-                    "type": "string"
+                    "type": "string",
+                    "format": "duration"
                 },
                 "cookTime": {
-                    "type": "string"
+                    "type": "string",
+                    "format": "duration"
                 },
                 "yield": {
                     "type": "string"

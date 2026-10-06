@@ -4,22 +4,22 @@
         {
             "slug": "banana-bread",
             "title": "Banana Bread",
-            "prepTime": "5 minutes",
-            "cookTime": "60 minutes",
+            "prepTime": "PT5M",
+            "cookTime": "PT60M",
             "yield": "1 loaf"
         },
         {
             "slug": "chocolate-chip-cookies",
             "title": "Chocolate Chip Cookies",
-            "prepTime": "25 minutes",
-            "cookTime": "8 minutes per batch",
+            "prepTime": "PT25M",
+            "cookTime": "PT8M",
             "yield": "about 60 cookies"
         },
         {
             "slug": "pulled-pork",
             "title": "Pulled Pork",
-            "prepTime": "10 minutes",
-            "cookTime": "40 minutes",
+            "prepTime": "PT10M",
+            "cookTime": "PT40M",
             "yield": "6 servings"
         }
     ]

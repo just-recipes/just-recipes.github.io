@@ -1,8 +1,8 @@
 {
     "$schema": "../schemas/recipe.schema.json",
     "title": "Pulled Pork",
-    "prepTime": "10 minutes",
-    "cookTime": "50 minutes",
+    "prepTime": "PT10M",
+    "cookTime": "PT50M",
     "yield": "6 servings",
     "ingredients": [
         {
@@ -99,12 +99,12 @@
         {
             "stepNumber": 6,
             "text": "Add the barbecue sauce mixture to the instant pot.  Close the lid and cook on high pressure for 40 minutes.",
-            "timerMinutes": 40
+            "timer": "PT40M"
         },
         {
             "stepNumber": 7,
             "text": "Allow the pressure to release naturally for 10 minutes.",
-            "timerMinutes": 10
+            "timer": "PT10M"
         },
         {
             "stepNumber": 8,
