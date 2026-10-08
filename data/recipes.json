@@ -21,6 +21,13 @@
             "prepTime": "PT10M",
             "cookTime": "PT40M",
             "yield": "6 servings"
+        },
+        {
+            "slug": "honey-glazed-salmon",
+            "title": "Honey Glazed Salmon",
+            "prepTime": "PT5M",
+            "cookTime": "PT15M",
+            "yield": "4 servings"
         }
     ]
 }

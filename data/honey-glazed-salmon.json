@@ -1,0 +1,70 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Honey Glazed Salmon",
+    "prepTime": "PT5M",
+    "cookTime": "PT15M",
+    "yield": "4 servings",
+    "ovenTemperature": {
+        "value": 425,
+        "unit": "F"
+    },
+    "ingredients": [
+        {
+            "amount": 4,
+            "unit": "fillet",
+            "name": "salmon"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "name": "salted butter"
+        },
+        {
+            "amount": 4,
+            "unit": "clove",
+            "name": "garlic"
+        },
+        {
+            "amount": 0.33,
+            "unit": "cup",
+            "name": "honey"
+        },
+        {
+            "amount": 4,
+            "unit": "tbsp",
+            "name": "soy sauce"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "sea salt"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "name": "ground black pepper"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "garlic powder"
+        }
+    ],
+    "instructions": [
+        {
+            "stepNumber": 1,
+            "text": "Preheat the oven and line a baking sheet with aluminum foil."
+        },
+        {
+            "stepNumber": 2,
+            "text": "Heat a medium saucepan over medium heat. Add butter, garlic, honey, and soy sauce. Whisk until smooth. Cook for 3 minutes.",
+            "duration": "PT3M"
+        },
+        {
+            "stepNumber": 3,
+            "text": "Place salmon fillets on the baking sheet. Season with sea salt, black pepper, and garlic powder. Pour the honey glaze over the salmon fillets. Bake for 12 minutes. Safe temperature is 145 degrees F.",
+            "duration": "PT12M"
+        }
+    ]
+
+}
