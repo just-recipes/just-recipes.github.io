@@ -89,11 +89,12 @@ function formatAmount(amount) {
 
 // Only contains units that change from their default form (see recipe.schema.json)
 const UNIT_MAP = {
-  cup: { singular: 'cup', plural: 'cups' },
+  can: { singular: 'can', plural: 'cans' },
   clove: { singular: 'clove', plural: 'cloves' },
-  stick: { singular: 'stick', plural: 'sticks' },
+  cup: { singular: 'cup', plural: 'cups' },
+  fillet: { singular: 'fillet', plural: 'fillets' },
   pkg: { singular: 'pkg', plural: 'pkgs' },
-  can: { singular: 'can', plural: 'cans' }
+  stick: { singular: 'stick', plural: 'sticks' }
 };
 
 function formatUnit(amount, unit) {
