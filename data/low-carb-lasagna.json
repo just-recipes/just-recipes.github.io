@@ -1,0 +1,113 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Low Carb Lasagna",
+    "prepTime": "PT20M",
+    "cookTime": "PT45M",
+    "yield": "4 servings",
+    "ovenTemperature": {
+        "value": 400,
+        "unit": "F"
+    },
+    "ingredients": [
+        {
+            "amount": 400,
+            "unit": "g",
+            "name": "low fat cottage cheese"
+        },
+        {
+            "amount": 1,
+            "name": "egg"
+        },
+        {
+            "amount": 25,
+            "unit": "g",
+            "name": "parmigiano reggiano",
+            "preparation": "grated"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "garlic powder"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "name": "basil",
+            "preparation": "chopped"
+        },
+        {
+            "amount": 400,
+            "unit": "g",
+            "name": "extra-lean ground beef"
+        },
+        {
+            "amount": 250,
+            "unit": "g",
+            "name": "mushrooms",
+            "preparation": "chopped"
+        },
+        {
+            "amount": 250,
+            "unit": "g",
+            "name": "zucchini",
+            "preparation": "diced"
+        },
+        {
+            "amount": 100,
+            "unit": "g",
+            "name": "yellow onion",
+            "preparation": "diced"
+        },
+        {
+            "amount": 400,
+            "unit": "ml",
+            "name": "passata"
+        },
+        {
+            "amount": 30,
+            "unit": "g",
+            "name": "tomato paste"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "italian seasoning"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "name": "garlic powder"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "dry lasagna sheets"
+        },
+        {
+            "amount": 30,
+            "unit": "g",
+            "name": "parmigiano reggiano",
+            "preparation": "grated"
+        }
+    ],
+    "instructions": [
+        {
+            "stepNumber": 1,
+            "text": "Blend all the creamy-layer ingredients until smooth."
+        },
+        {
+            "stepNumber": 2,
+            "text": "Brown the beef, drain the excess fat. Add mushrooms, zucchini, and onion.  Cook until soft and the moisture has cooked off. Add tomato paste, then pasta and seasonings. Simmer uncovered for 7-10 minutes, until thick.",
+            "duration": "PT15M"
+        },
+        {
+            "stepNumber": 3,
+            "text": "In a 9x9 dish, layer sauce, 2 lasagna sheets, sauce + creamy layer, 2 lasagna sheets, then the remaining creamy layer + sauce. Top with 30g Parmigiano."
+        },
+        {
+            "stepNumber": 4,
+            "text": "Bake uncovered for 40-50 minutes.",
+            "duration": "PT45M"
+        }
+    ]
+}

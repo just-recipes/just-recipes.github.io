@@ -28,6 +28,13 @@
             "prepTime": "PT5M",
             "cookTime": "PT15M",
             "yield": "4 servings"
+        },
+        {
+            "slug": "low-carb-lasagna",
+            "title": "Low Carb Lasagna",
+            "prepTime": "PT20M",
+            "cookTime": "PT45M",
+            "yield": "4 servings"
         }
     ]
 }
